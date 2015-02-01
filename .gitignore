@@ -1,0 +1,17 @@
+/.settings/
+/.cproject
+/.project
+/autom4te.cache/
+/aclocal.m4
+/compile
+/config.h.in
+/config.log
+/config.status
+/configure
+/depcomp
+/install-sh
+/Makefile
+/Makefile.in
+/missing
+/stamp-h1
+/config.h
