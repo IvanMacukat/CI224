@@ -1,7 +1,7 @@
 #include "CubeAsset.h"
 
 CubeAsset::CubeAsset(float x, float y, float z) {
-
+	// preparing vertex and triangles data for the cube
 	num_vertices = 8;
 	num_triangles = 12;
 	g_vertex_buffer_data = new GLfloat[num_vertices * 3]; // three points per vertex
@@ -104,7 +104,7 @@ CubeAsset::CubeAsset(float x, float y, float z) {
 	bbox.reset();
 	bbox = shared_ptr<BoundingBox>(
 			new BoundingBox(Point3(x, y, z), 1.0, 1.0, 1.0));
-
+	// Create OpenGL resources for vertex and triangles
 	make_resources();
 }
 

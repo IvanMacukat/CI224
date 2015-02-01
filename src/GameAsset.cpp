@@ -151,12 +151,12 @@ int GameAsset::make_resources(void) {
 	element_buffer = make_buffer(
 	GL_ELEMENT_ARRAY_BUFFER, g_element_buffer_data,
 			3 * sizeof(GLushort) * this->num_triangles);
-
+	// Loading shader v_shader
 	vertex_shader = make_shader(
 	GL_VERTEX_SHADER, this->v_shader.c_str());
 	if (vertex_shader == 0)
 		return 0;
-
+	// Loading shader f_shader
 	fragment_shader = make_shader(
 	GL_FRAGMENT_SHADER, this->f_shader.c_str());
 	if (fragment_shader == 0)

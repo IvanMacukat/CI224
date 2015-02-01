@@ -104,7 +104,8 @@ int main(int argc, char ** argv) {
 		cerr << "OpenGL 2.0 not available" << endl;
 		return 1;
 	}
-
+	// Added single cube to the game world
+	// X = 3.0, Y = 3.0, Z = 1.0
 	assets.push_back(shared_ptr<CubeAsset>(new CubeAsset(3.0, 3.0, 1.0)));
 
 	// Set the camera

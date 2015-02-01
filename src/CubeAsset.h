@@ -3,6 +3,8 @@
 #ifndef CUBEASSET_H_
 #define CUBEASSET_H_
 
+// CubeAsset extends GameAsset
+
 class CubeAsset: public GameAsset {
 public:
 	CubeAsset();
