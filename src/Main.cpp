@@ -148,6 +148,7 @@ int main(int argc, char ** argv) {
 				break;
 			case SDLK_g:
 				horrible_global_go = true;
+				break;
 			default:
 				break;
 			}
