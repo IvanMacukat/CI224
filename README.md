@@ -24,6 +24,7 @@ Go to the root folder of the this project and compile by running the following c
 If you ever run into issues with the game, repeat the process carefully. You can delete your objects and pacman application with the following commands:
 
 `$ make clean`
+
 `$ make`
 
 To execute the program, to go /src folder and run:
